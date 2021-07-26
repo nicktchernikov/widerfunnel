@@ -130,7 +130,7 @@ document.getElementsByTagName("head")[0].appendChild(modalStyleDiv);
 
 // Style containers
 
-contentStyle = {
+const contentStyle = {
     borderRadius: '4px',
     maxWidth: '991px',
     position: 'fixed',
