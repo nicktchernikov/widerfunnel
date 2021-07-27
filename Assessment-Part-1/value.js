@@ -188,6 +188,7 @@ const responsiveValueStyle = `
 }
 @media screen and (max-width: 661px) {
     #value-container {
+        margin-left: 0px !important; 
         margin-bottom: 30px !important;
 
         flex-direction: column !important;
