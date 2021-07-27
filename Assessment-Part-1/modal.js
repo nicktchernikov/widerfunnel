@@ -207,7 +207,6 @@ document.querySelector('#sidebar .entry-content').appendChild(sidebarButtonElem)
 
 const mobileTabletButtonElem = document.createElement('a');
 mobileTabletButtonElem.className = 'orange-button';
-mobileTabletButtonElem.setAttribute('href', '#');
 mobileTabletButtonElem.innerHTML = 'Learn More';
 document.querySelector('.entry-content.hide-on-desktop-min').appendChild(mobileTabletButtonElem);
 
